@@ -96,11 +96,11 @@ body {
 
 /* Button */
 .button {
+  font-family: inherit;
   cursor: pointer;
 }
 
 .hero-button {
-  font-family: inherit;
   color: var(--primary-white-color);
   font-weight: 700;
   font-size: 16px;
@@ -204,6 +204,7 @@ body {
   font-size: 16px;
   line-height: 1.62;
   text-align: center;
+  letter-spacing: 0.03em;
 }
 
 .categories-list .button.current {
